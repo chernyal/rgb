@@ -11,3 +11,6 @@ import {defineConfig, devices} from '@playwright/test'
 const TESTS_PATH = path.join(__dirname, 'test', 'e2e', 'tests')
 const HTML_REPORT_PATH = path.join(__dirname, 'test', 'e2e', 'report')
 const ARTIFACT_OUTPUT_PATH = path.join(__dirname, 'test', 'e2e', 'results')
+
+// OS-specific browsers to include
+const OS_BROWSERS =
