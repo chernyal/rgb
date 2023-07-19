@@ -15,3 +15,6 @@ const ARTIFACT_OUTPUT_PATH = path.join(__dirname, 'test', 'e2e', 'results')
 // OS-specific browsers to include
 const OS_BROWSERS =
   os.platform() === 'darwin' ? [{name: 'webkit', use: {...devices['Desktop Safari']}}] : []
+
+// Read environment variables
+const CI = readBoolEnv('CI', false)
