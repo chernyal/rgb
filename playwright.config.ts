@@ -20,3 +20,9 @@ const OS_BROWSERS =
 const CI = readBoolEnv('CI', false)
 const E2E_DEBUG = readBoolEnv('SANITY_E2E_DEBUG', false)
 const PROJECT_ID = 'ppsg7ml5'
+
+/**
+ * See https://playwright.dev/docs/test-configuration.
+ */
+export default defineConfig({
+  globalSetup: require.resolve('./test/e2e/globalSetup'),
