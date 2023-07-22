@@ -26,3 +26,7 @@ const PROJECT_ID = 'ppsg7ml5'
  */
 export default defineConfig({
   globalSetup: require.resolve('./test/e2e/globalSetup'),
+
+  testDir: TESTS_PATH,
+
+  /* Maximum time one test can run for. */
