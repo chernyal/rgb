@@ -30,3 +30,4 @@ export default defineConfig({
   testDir: TESTS_PATH,
 
   /* Maximum time one test can run for. */
+  timeout: 30 * 1000,
