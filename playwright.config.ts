@@ -31,3 +31,7 @@ export default defineConfig({
 
   /* Maximum time one test can run for. */
   timeout: 30 * 1000,
+
+  retries: 1,
+
+  expect: {
