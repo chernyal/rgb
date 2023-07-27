@@ -40,3 +40,4 @@ export default defineConfig({
       * For example in `await expect(locator).toHaveText();`
      */
     timeout: 1000 * 60 * 5,
+ },
