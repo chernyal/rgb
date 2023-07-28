@@ -41,3 +41,6 @@ export default defineConfig({
      */
     timeout: 1000 * 60 * 5,
  },
+
+  /* Reporter to use. See https://playwright.dev/docs/test-reporters */
+  reporter: CI
