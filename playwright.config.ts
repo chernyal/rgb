@@ -55,3 +55,5 @@ export default defineConfig({
     trace: 'on-first-retry',
  baseURL: 'http://localhost:3333/',
     headless: readBoolEnv('SANITY_E2E_HEADLESS', !E2E_DEBUG),
+storageState: getStorageStateForProjectId(PROJECT_ID),
+    viewport: {width: 1728, height: 1000},
