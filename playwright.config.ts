@@ -62,3 +62,6 @@ storageState: getStorageStateForProjectId(PROJECT_ID),
  },
 
   /* Configure projects for major browsers */
+ projects: E2E_DEBUG
+    ? [
+        {
