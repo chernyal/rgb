@@ -65,3 +65,5 @@ storageState: getStorageStateForProjectId(PROJECT_ID),
  projects: E2E_DEBUG
     ? [
         {
+   name: 'chromium',
+          use: {...devices['Desktop Chrome']},
