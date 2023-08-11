@@ -74,3 +74,7 @@ storageState: getStorageStateForProjectId(PROJECT_ID),
           name: 'chromium',
  use: {...devices['Desktop Chrome']},
         },
+  ]
+    : [
+        {
+          name: 'chromium',
