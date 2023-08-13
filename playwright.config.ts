@@ -77,3 +77,5 @@ storageState: getStorageStateForProjectId(PROJECT_ID),
 
         {
           name: 'firefox',
+  use: {...devices['Desktop Firefox']},
+        },
