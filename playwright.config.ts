@@ -82,3 +82,6 @@ storageState: getStorageStateForProjectId(PROJECT_ID),
 
         ...OS_BROWSERS,
       ],
+
+  /* Folder for test artifacts such as screenshots, videos, traces, etc. */
+  outputDir: ARTIFACT_OUTPUT_PATH,
