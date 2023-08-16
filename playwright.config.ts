@@ -85,3 +85,6 @@ storageState: getStorageStateForProjectId(PROJECT_ID),
 
   /* Folder for test artifacts such as screenshots, videos, traces, etc. */
   outputDir: ARTIFACT_OUTPUT_PATH,
+
+  /* Run your local dev server before starting the tests */
+  webServer: {
