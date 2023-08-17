@@ -88,3 +88,5 @@ storageState: getStorageStateForProjectId(PROJECT_ID),
 
   /* Run your local dev server before starting the tests */
   webServer: {
+ command: 'yarn dev',
+    port: 3333,
