@@ -90,3 +90,6 @@ storageState: getStorageStateForProjectId(PROJECT_ID),
   webServer: {
  command: 'yarn dev',
     port: 3333,
+reuseExistingServer: !CI,
+  },
+})
