@@ -93,3 +93,6 @@ storageState: getStorageStateForProjectId(PROJECT_ID),
 reuseExistingServer: !CI,
   },
 })
+
+/**
+ * Read an environment variable, parsing the response as a boolean, using loose
