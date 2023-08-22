@@ -96,3 +96,6 @@ reuseExistingServer: !CI,
 
 /**
  * Read an environment variable, parsing the response as a boolean, using loose
+ * constraints (`true`, `1`, `yes` are all considered true, everything else is false)
+ *
+ * @param flag - The environment variable to read, eg `SOME_FLAG`
