@@ -99,3 +99,4 @@ reuseExistingServer: !CI,
  * constraints (`true`, `1`, `yes` are all considered true, everything else is false)
  *
  * @param flag - The environment variable to read, eg `SOME_FLAG`
+ * @param defaultValue - The default value to use if it is not set
