@@ -118,3 +118,5 @@ function readBoolEnv(flag: string, defaultValue: boolean) {
  * @param projectId - The ID of the project the auth token belongs to
 * @returns A storage state object
  * @internal
+ */
+function getStorageStateForProjectId(projectId: string) {
