@@ -125,3 +125,5 @@ function getStorageStateForProjectId(projectId: string) {
  origins: [
       {
         origin: 'http://localhost:3333',
+ localStorage: [
+          {
