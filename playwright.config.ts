@@ -127,3 +127,4 @@ function getStorageStateForProjectId(projectId: string) {
         origin: 'http://localhost:3333',
  localStorage: [
           {
+    name: `__studio_auth_token_${projectId}`,
