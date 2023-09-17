@@ -129,3 +129,4 @@ function getStorageStateForProjectId(projectId: string) {
           {
     name: `__studio_auth_token_${projectId}`,
  value: JSON.stringify({
+ token: SANITY_E2E_SESSION_TOKEN,
