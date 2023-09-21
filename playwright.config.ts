@@ -119,22 +119,3 @@ function readBoolEnv(flag: string, defaultValue: boolean) {
 * @returns A storage state object
  * @internal
  */
-function getStorageStateForProjectId(projectId: string) {
- return {
-    cookies: [],
- origins: [
-      {
-        origin: 'http://localhost:3333',
- localStorage: [
-          {
-    name: `__studio_auth_token_${projectId}`,
- value: JSON.stringify({
- token: SANITY_E2E_SESSION_TOKEN,
-time: new Date().toISOString(),
- }),
-          },
-        ],
-      },
-    ],
-  }
-}
