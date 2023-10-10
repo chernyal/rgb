@@ -44,3 +44,4 @@ export default defineConfig({
 
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: CI
+ ? [['github'], ['html', {outputFolder: HTML_REPORT_PATH}]]
