@@ -46,3 +46,7 @@ export default defineConfig({
   reporter: CI
  ? [['github'], ['html', {outputFolder: HTML_REPORT_PATH}]]
   : [['list'], ['html', {outputFolder: HTML_REPORT_PATH}]],
+
+  /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
+  use: {
+    /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
