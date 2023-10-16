@@ -54,3 +54,5 @@ export default defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
  trace: 'on-first-retry',
     baseURL: 'http://localhost:3333/',
+ headless: readBoolEnv('SANITY_E2E_HEADLESS', !E2E_DEBUG),
+    storageState: getStorageStateForProjectId(PROJECT_ID),
