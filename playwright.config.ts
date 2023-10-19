@@ -62,3 +62,8 @@ viewport: {width: 1728, height: 1000},
   },
 
   /* Configure projects for major browsers */
+ projects: E2E_DEBUG
+    ? [
+        {
+          name: 'chromium',
+          use: {...devices['Desktop Chrome']},
