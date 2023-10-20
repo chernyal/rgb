@@ -67,3 +67,8 @@ viewport: {width: 1728, height: 1000},
         {
           name: 'chromium',
           use: {...devices['Desktop Chrome']},
+    },
+      ]
+    : [
+        {
+          name: 'chromium',
