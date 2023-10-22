@@ -77,3 +77,4 @@ viewport: {width: 1728, height: 1000},
 
         {
           name: 'firefox',
+ use: {...devices['Desktop Firefox']},
