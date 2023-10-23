@@ -78,3 +78,9 @@ viewport: {width: 1728, height: 1000},
         {
           name: 'firefox',
  use: {...devices['Desktop Firefox']},
+ },
+
+        ...OS_BROWSERS,
+      ],
+
+  /* Folder for test artifacts such as screenshots, videos, traces, etc. */
