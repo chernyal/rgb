@@ -84,3 +84,6 @@ viewport: {width: 1728, height: 1000},
       ],
 
   /* Folder for test artifacts such as screenshots, videos, traces, etc. */
+ outputDir: ARTIFACT_OUTPUT_PATH,
+
+  /* Run your local dev server before starting the tests */
