@@ -87,3 +87,5 @@ viewport: {width: 1728, height: 1000},
  outputDir: ARTIFACT_OUTPUT_PATH,
 
   /* Run your local dev server before starting the tests */
+  webServer: {
+    command: 'yarn dev',
