@@ -89,3 +89,4 @@ viewport: {width: 1728, height: 1000},
   /* Run your local dev server before starting the tests */
   webServer: {
     command: 'yarn dev',
+ port: 3333,
