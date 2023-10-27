@@ -90,3 +90,4 @@ viewport: {width: 1728, height: 1000},
   webServer: {
     command: 'yarn dev',
  port: 3333,
+reuseExistingServer: !CI,
