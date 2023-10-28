@@ -91,3 +91,8 @@ viewport: {width: 1728, height: 1000},
     command: 'yarn dev',
  port: 3333,
 reuseExistingServer: !CI,
+},
+})
+
+/**
+ * Read an environment variable, parsing the response as a boolean, using loose
