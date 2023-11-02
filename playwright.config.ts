@@ -100,3 +100,5 @@ reuseExistingServer: !CI,
  *
  * @param flag - The environment variable to read, eg `SOME_FLAG`
  * @param defaultValue - The default value to use if it is not set
+ * @returns A boolean value
+ * @internal
