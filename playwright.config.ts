@@ -102,3 +102,5 @@ reuseExistingServer: !CI,
  * @param defaultValue - The default value to use if it is not set
  * @returns A boolean value
  * @internal
+ */
+function readBoolEnv(flag: string, defaultValue: boolean) {
