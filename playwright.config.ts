@@ -104,3 +104,5 @@ reuseExistingServer: !CI,
  * @internal
  */
 function readBoolEnv(flag: string, defaultValue: boolean) {
+ const value = process.env[flag]
+  if (value === undefined) {
