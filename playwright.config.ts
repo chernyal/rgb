@@ -110,3 +110,7 @@ function readBoolEnv(flag: string, defaultValue: boolean) {
   }
 
   return value === 'true' || value === '1' || value === 'yes'
+}
+
+/**
+ * Returns a storage state with an auth token injected to the localstorage for the given project ID
