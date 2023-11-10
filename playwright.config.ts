@@ -120,3 +120,5 @@ function readBoolEnv(flag: string, defaultValue: boolean) {
 * @internal
  */
 function getStorageStateForProjectId(projectId: string) {
+return {
+    cookies: [],
