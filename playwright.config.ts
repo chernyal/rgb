@@ -122,3 +122,6 @@ function readBoolEnv(flag: string, defaultValue: boolean) {
 function getStorageStateForProjectId(projectId: string) {
 return {
     cookies: [],
+  origins: [
+      {
+        origin: BASE_URL,
