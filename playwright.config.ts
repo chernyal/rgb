@@ -125,3 +125,6 @@ return {
   origins: [
       {
         origin: BASE_URL,
+  localStorage: [
+          {
+            name: `__studio_auth_token_${projectId}`,
