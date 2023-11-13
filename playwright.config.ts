@@ -128,3 +128,4 @@ return {
   localStorage: [
           {
             name: `__studio_auth_token_${projectId}`,
+value: JSON.stringify({
