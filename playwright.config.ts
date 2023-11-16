@@ -131,3 +131,10 @@ return {
 value: JSON.stringify({
   token: SANITY_E2E_SESSION_TOKEN,
   time: new Date().toISOString(),
+}),
+          },
+        ],
+      },
+    ],
+  }
+}
