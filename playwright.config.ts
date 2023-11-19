@@ -9,3 +9,4 @@ import {defineConfig, devices} from '@playwright/test'
 
 // Paths
 const TESTS_PATH = path.join(__dirname, 'test', 'e2e', 'tests')
+const HTML_REPORT_PATH = path.join(__dirname, 'test', 'e2e', 'report')
