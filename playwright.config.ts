@@ -13,3 +13,5 @@ const HTML_REPORT_PATH = path.join(__dirname, 'test', 'e2e', 'report')
 const ARTIFACT_OUTPUT_PATH = path.join(__dirname, 'test', 'e2e', 'results')
 
 // OS-specific browsers to include
+const OS_BROWSERS =
+  os.platform() === 'darwin' ? [{name: 'webkit', use: {...devices['Desktop Safari']}}] : []
