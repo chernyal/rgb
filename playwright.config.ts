@@ -25,3 +25,5 @@ const BASE_URL = 'http://localhost:3339/'
 
 /**
  * See https://playwright.dev/docs/test-configuration.
+ */
+export default defineConfig({
