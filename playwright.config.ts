@@ -6,3 +6,6 @@ import os from 'os'
 import path from 'path'
 import {defineConfig, devices} from '@playwright/test'
 
+
+// Paths
+const TESTS_PATH = path.join(__dirname, 'test', 'e2e', 'tests')
