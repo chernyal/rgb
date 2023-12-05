@@ -19,3 +19,6 @@ const OS_BROWSERS =
 // Read environment variables
 const CI = readBoolEnv('CI', false)
 const E2E_DEBUG = readBoolEnv('SANITY_E2E_DEBUG', false)
+const PROJECT_ID = process.env.SANITY_E2E_PROJECT_ID!
+
+const BASE_URL = 'http://localhost:3339/'
